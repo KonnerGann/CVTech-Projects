@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    table{width: 853px;margin: auto;}
+    </style>
+</head>
+<body style="text-align: center;border: solid black; width: 1000px;margin: auto;">
+    <table>
+        <tr>
+            <th>
+                <img src="./images/CVtech.png" alt="cvtech logo">
+            </th>
+            <th>
+                <h1>Canadian Valley Technology Center</h1>
+            </th>        
+        </tr>
+        <tr>
+            <th>
+                <h2>Practice Employment Application</h2>
+            </th>
+        </tr>
+        </table>
+        <table>
+            <tr>
+                <th style="background-color: black;color: white;font-size: 22px;">
+                    Applicant Information
+                </th>
+            </table>
+            <Form>
+                <Label>Full name:</Label>
+                <input type="text" name="name" id="name" placeholder="Last,First,M.I.">
+                <Label>
+                    Date:
+                </Label>
+                <input type="date" name="Date" id="Date">
+                <br>
+                <Label>
+                    Address:
+                </Label>
+                <input style="width: 340px;" type="text" name="Address" id="Address" placeholder="Street Address, City, State, Zip Code">
+                <br>
+                <Label>
+                    Phone:
+                </Label>
+                <input style="width: 100px;" type="tel" name="PHone" id="Phone" placeholder="(###)-###-####">
+                <Label>
+                    Email:
+                </Label>
+                <input style="width: 100px;" type="Email" name="Email" id="Email" placeholder="name@email">
+                <br>
+                <Label>
+                    Date Available:
+                </Label>
+                <input type="date" name="Date Available" id="Date Available">
+                <Label>
+                    Social Security No.:
+                </Label>
+                <input style="width: 80px;" type="text" name="Social Security" id="Social Security" placeholder="###-##-####">
+                <Label>
+                    Desired Salary:$
+                </Label>
+                <input style="width: 60px;" type="number" name="Salary" id="Salary" step="100">
+                <br>
+                <Label>
+                    What position are you appyling for:
+                </Label>
+                <input style="width: 240px;" type="text" name="position" id="position">
+                <br>
+                <Label>
+                    How did you learn of this position:
+                </Label>
+                <input style="width: 240px;" type="text" name="found position" id="found position">
+                <br>
+                <Label>
+                    Are you a U.S. Citizen?
+                </Label>
+                <Label>Yes</Label>
+                <input type="radio" name="Citizenship" id="Citizenship">
+                <Label>No</Label>
+                <input type="radio" name="Citizenship" id="Citizenship">
+                <label>If no,are you authorized to worlk in the U.S.?</label>
+                <Label>Yes</Label>
+                <input type="checkbox" name="Authorization" id="Authorization">
+                <Label>No</Label>
+                <input type="checkbox" name="Authorization" id="Authorization">
+                <br>
+                <Label>
+                    Have you ever worked with this company before?
+                </Label>
+                <Label>Yes</Label>
+                <input type="radio" name="job" id="job">
+                <Label>No</Label>
+                <input type="radio" name="job" id="job">
+                <Label>
+                    If yes,when?
+                </Label>
+                <input type="text" name="when" id="when">
+                <br>
+                <label>
+                    Have you ever been convicted of a felony?
+                </label>
+                <Label>Yes</Label>
+                <input type="checkbox" name="Felony" id="Felony">
+                <Label>No</Label>
+                <input type="checkbox" name="Felony" id="Felony">
+                <Label>
+                    If yes,explain?
+                </Label>
+                <input style="width: 300px;" type="text" name="explain" id="explain">
+                <br>
+            </Form>
+            <table>
+                <tr>
+                    <th style="background-color: black;color: white;font-size: 22px;">
+                        Education
+                    </th>
+            </table>
+            <Form>
+                <Label>
+                    High School
+                </Label>
+                <input type="text" name="High-School" id="High-School">
+                <Label>
+                    Address
+                </Label>
+                <input style="width: 350px;" type="text" name="High-School-address" id="High-School-address">
+                <br>
+                <Label>
+                    From
+                </Label>
+                <input type="date" name="HS-From" id="HS-From">
+                <Label>
+                    To
+                </Label>
+                <input type="date" name="HS-To" id="HS-To">
+                <Label>
+                    Did you Graduate?
+                </Label>
+                <Label>Yes</Label>
+                <input type="checkbox" name="HS-Graduation" id="HS-Graduation">
+                <Label>No</Label>
+                <input type="checkbox" name="HS-Graduation" id="HS-Graduation">
+                <Label>
+                    Diploma
+                </Label>
+                <input type="text" name="High-School-Diploma" id="High-School-Diploma">
+                <br>
+                <br>
+                <Label>
+                    College
+                </Label>
+                <input type="text" name="College" id="College">
+                <Label>
+                    Address
+                </Label>
+                <input style="width: 350px;" type="text" name="College-address" id="College-address">
+                <br>
+                <Label>
+                    From
+                </Label>
+                <input type="date" name="College-From" id="College-From">
+                <Label>
+                    To
+                </Label>
+                <input type="date" name="College-To" id="College-To">
+                <Label>
+                    Did you Graduate?
+                </Label>
+                <Label>Yes</Label>
+                <input type="checkbox" name="College-Graduation" id="College-Graduation">
+                <Label>No</Label>
+                <input type="checkbox" name="College-Graduation" id="College-Graduation">
+                <Label>
+                    Diploma
+                </Label>
+                <input type="text" name="College-Diploma" id="College-Diploma">
+                <br>
+                <br>
+                <Label>
+                    Other
+                </Label>
+                <input type="text" name="Other" id="Other">
+                <Label>
+                    Address
+                </Label>
+                <input style="width: 350px;" type="text" name="Other-address" id="Other-address">
+                <br>
+                <Label>
+                    From
+                </Label>
+                <input type="date" name="Other-From" id="Other-From">
+                <Label>
+                    To
+                </Label>
+                <input type="date" name="Other-To" id="Other-To">
+                <Label>
+                    Did you Graduate?
+                </Label>
+                <Label>Yes</Label>
+                <input type="checkbox" name="Other-Graduation" id="Other-Graduation">
+                <Label>No</Label>
+                <input type="checkbox" name="Other-Graduation" id="Other-Graduation">
+                <Label>
+                    Diploma
+                </Label>
+                <input type="text" name="Other-Diploma" id="Other-Diploma">
+            </Form>
+            <table>
+                <tr>
+                    <th style="background-color: black;color: white;font-size: 22px;">
+                        References
+                    </th>
+            </table>
+            <p>Please list three professional references</p>
+            <form>
+                <Label>
+                    Full Name:
+                </Label>
+                <input type="text" name="Ref1-Name" id="Ref1-Name">
+                <Label>
+                    Relationship:
+                </Label>
+                <input type="text" name="Ref1-Relation" id="Ref1-Relation">
+                <br>
+                <Label>
+                    Company:
+                </Label>
+                <input type="text" name="Ref1-Company" id="Ref1-Company">
+                <Label>
+                    Phone:
+                </Label>
+                <input type="tel" name="Ref1-Phone" id="Ref1-Phone">
+                <br>
+                <Label>
+                    Email:
+                </Label>
+                <input type="email" name="Ref1-Email" id="Ref1-Email">
+            <table style="border-top: solid black;border-bottom: solid black">
+                <tr>
+                    <th></th>
+                </tr>
+            </table>
+            <form>
+                <Label>
+                    Full Name:
+                </Label>
+                <input type="text" name="Ref2-Name" id="Ref2-Name">
+                <Label>
+                    Relationship:
+                </Label>
+                <input type="text" name="Ref2-Relation" id="Ref2-Relation">
+                <br>
+                <Label>
+                    Company:
+                </Label>
+                <input type="text" name="Ref2-Company" id="Ref2-Company">
+                <Label>
+                    Phone:
+                </Label>
+                <input type="tel" name="Ref2-Phone" id="Ref2-Phone">
+                <br>
+                <Label>
+                    Email:
+                </Label>
+                <input type="email" name="Ref2-Email" id="Ref2-Email">
+            </form>
+            <table style="border-top: solid black;border-bottom: solid black">
+                <tr>
+                    <th></th>
+                </tr>
+            </table>
+            <form>
+                <Label>
+                    Full Name:
+                </Label>
+                <input type="text" name="Ref3-Name" id="Ref3-Name">
+                <Label>
+                    Relationship:
+                </Label>
+                <input type="text" name="Ref3-Relation" id="Ref3-Relation">
+                <br>
+                <Label>
+                    Company:
+                </Label>
+                <input type="text" name="Ref3-Company" id="Ref3-Company">
+                <Label>
+                    Phone:
+                </Label>
+                <input type="tel" name="Ref3-Phone" id="Ref3-Phone">
+                <br>
+                <Label>
+                    Email:
+                </Label>
+                <input type="email" name="Ref3-Email" id="Ref3-Email">
+            </form>
+            <table style="width: 835px;">
+                <tr>
+                    <th style="background-color: black;color: white;font-size: 22px;">
+                        Previous Employment
+                    </th>
+            </table>
+            <Form>
+                <Label>
+                    Company:
+                </Label>
+                <input type="text" name="Job1-Company" id="Job1-Company">
+                <Label>
+                    Phone:
+                </Label>
+                <input type="tel" name="Job1-Phone" id="Job1-Phone">
+                <br>
+                <Label>
+                    Address:
+                </Label>
+                <input type="text" name="Job1-Address" id="Job1-Address">
+                <Label>
+                    Supervisor:
+                </Label>
+                <input type="text" name="Job1-Supervisor" id="Job1-Supervisor">
+                <br>
+                <Label>
+                    Job Title:
+                </Label>
+                <input type="text" name="Job1-Title" id="Job1-Title">
+                <Label>
+                    Starting Salary:$
+                </Label>
+                <input type="Number" name="Job1-S-Salary" id="Job1-S-Salary">
+                <Label>
+                    End Salary:$
+                </Label>
+                <input type="Number" name="Job1-E-Salary" id="Job1-E-Salary">
+                <br>
+                <Label>
+                    Responsibilities:
+                </Label>
+                <input type="text" name="Job1-Duties" id="Job1-Duties">
+                <br>
+                <Label>
+                    From:
+                </Label>
+                <input type="date" name="Job1-From" id="Job1-From">
+                <Label>
+                    To:
+                </Label>
+                <input type="date" name="Job1-To" id="Job1-To">
+                <Label>
+                    Reason for Leaving:
+                </Label>
+                <input type="Text" name="Job1-Reason" id="Job1-Reason">
+                <br>
+                <Label>
+                    May we contact your previous employer for a reference:
+                </Label>
+                <Label>
+                    Yes
+                </Label>
+                <input type="Radio" name="Job1-Ref?" id="Job1-Ref?">
+                <Label>
+                    No
+                </Label>
+                <input type="Radio" name="Job1-Ref?" id="Job1-Ref?">
+            </Form>
+            <table style="border-top: solid black;border-bottom: solid black">
+                <tr>
+                    <th>
+                        
+                    </th>
+                </tr>
+            </table>
+            <Form>
+                <Label>
+                    Company:
+                </Label>
+                <input type="text" name="Job2-Company" id="Job2-Company">
+                <Label>
+                    Phone:
+                </Label>
+                <input type="tel" name="Job2-Phone" id="Job2-Phone">
+                <br>
+                <Label>
+                    Address:
+                </Label>
+                <input type="text" name="Job2-Address" id="Job2-Address">
+                <Label>
+                    Supervisor:
+                </Label>
+                <input type="text" name="Job2-Supervisor" id="Job2-Supervisor">
+                <br>
+                <Label>
+                    Job Title:
+                </Label>
+                <input type="text" name="Job2-Title" id="Job2-Title">
+                <Label>
+                    Starting Salary:$
+                </Label>
+                <input type="Number" name="Job2-S-Salary" id="Job2-S-Salary">
+                <Label>
+                    End Salary:$
+                </Label>
+                <input type="Number" name="Job2-E-Salary" id="Job2-E-Salary">
+                <br>
+                <Label>
+                    Responsibilities:
+                </Label>
+                <input type="text" name="Job2-Duties" id="Job2-Duties">
+                <br>
+                <Label>
+                    From:
+                </Label>
+                <input type="date" name="Job2-From" id="Job2-From">
+                <Label>
+                    To:
+                </Label>
+                <input type="date" name="Job2-To" id="Job2-To">
+                <Label>
+                    Reason for Leaving:
+                </Label>
+                <input type="Text" name="Job2-Reason" id="Job2-Reason">
+                <br>
+                <Label>
+                    May we contact your previous employer for a reference:
+                </Label>
+                <Label>
+                    Yes
+                </Label>
+                <input type="Radio" name="Job2-Ref?" id="Job2-Ref?">
+                <Label>
+                    No
+                </Label>
+                <input type="Radio" name="Job2-Ref?" id="Job2-Ref?">
+            </Form>
+            <table style=" border-top: solid black;border-bottom: solid black">
+            <tr>
+                <th></th>
+            </tr>
+            </table>
+            <Form>
+                <Label>
+                    Company:
+                </Label>
+                <input type="text" name="Job3-Company" id="Job3-Company">
+                <Label>
+                    Phone:
+                </Label>
+                <input type="tel" name="Job3-Phone" id="Job3-Phone">
+                <br>
+                <Label>
+                    Address:
+                </Label>
+                <input type="text" name="Job3-Address" id="Job3-Address">
+                <Label>
+                    Supervisor:
+                </Label>
+                <input type="text" name="Job3-Supervisor" id="Job3-Supervisor">
+                <br>
+                <Label>
+                    Job Title:
+                </Label>
+                <input type="text" name="Job3-Title" id="Job3-Title">
+                <Label>
+                    Starting Salary:$
+                </Label>
+                <input type="Number" name="Job3-S-Salary" id="Job3-S-Salary">
+                <Label>
+                    End Salary:$
+                </Label>
+                <input type="Number" name="Job3-E-Salary" id="Job3-E-Salary">
+                <br>
+                <Label>
+                    Responsibilities:
+                </Label>
+                <input type="text" name="Job3-Duties" id="Job3-Duties">
+                <br>
+                <Label>
+                    From:
+                </Label>
+                <input type="date" name="Job3-From" id="Job3-From">
+                <Label>
+                    To:
+                </Label>
+                <input type="date" name="Job3-To" id="Job3-To">
+                <Label>
+                    Reason for Leaving:
+                </Label>
+                <input type="Text" name="Job3-Reason" id="Job3-Reason">
+                <br>
+                <Label>
+                    May we contact your previous employer for a reference:
+                </Label>
+                <Label>
+                    Yes
+                </Label>
+                <input type="Radio" name="Job3-Ref?" id="Job3-Ref?">
+                <Label>
+                    No
+                </Label>
+                <input type="Radio" name="Job3-Ref?" id="Job3-Ref?">
+            </Form>
+            <table style="width: 835px;">
+                <tr>
+                    <th style="background-color: black;color: white;font-size: 22px;">
+                        Skill and Abilities
+                    </th>
+            </table>
+            <Form>
+                <Label>
+                    What skills qualify you for this position?
+                </Label>
+                <br>
+                <Textarea style="width: 823px;height: 60px;"></Textarea>
+                <br>
+                <Label>
+                    Why are you interested in working for this company
+                </Label>
+                <br>
+                <Textarea style="width: 823px;height: 40px;"></Textarea>
+            </Form>
+            <table>
+                <tr>
+                    <th style="background-color: black;color: white;font-size: 22px;">
+                        Disclaimer and Signature
+                    </th>
+                </table>
+                <p>
+                    I certify that my answers are true and complete to the best of my abilities
+                    <br>
+                    <br>
+                    If this application leads to employment, I understand that false or misleading information in my application or
+                    interview may result
+                    <br> in my release.
+                </p>
+                <Form>
+                    <Label>
+                        Signature
+                    </Label>
+                    <input type="Text" name="Sig" id="sig">
+                    <Label>
+                        Date:
+                    </Label>
+                    <input type="Date" name="Sig-Date" id="Sig-Date">
+                </Form>
+</body>
+</html>

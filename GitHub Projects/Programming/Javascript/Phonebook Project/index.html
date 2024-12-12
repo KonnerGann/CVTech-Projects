@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td {border: solid black 2px;}
+    </style>
+</head>
+<!--Name: Konner Gann Start Date: 11/1/24 Finish Date:11/7/24  -->
+<body>
+    <h2>Add your info here</h2>
+    <form id="PhonebookForm">
+        <label>First Name</label>
+        <input type="text" id="FirstName" required>
+        <br>
+        <label>Last Name</label>
+        <input type="text" id="LastName" required>
+        <br>
+        <label>Phone Number</label>
+        <input type="tel" id="PhoneNumber" required placeholder="(xxx)-xxx-xxxx">
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+    </form>
+    <table style="font-size: 25px;">
+        <tr>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Phone number</th>
+        </tr>
+        <tr>
+            <td id="FirstNameResult"></td>
+            <td id="LastNameResult"></td>
+            <td id="PhoneResult"></td>
+        </tr>
+    </table>
+    <script src="Phonebook.js"></script>
+</body>
+</html>
