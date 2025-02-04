@@ -5,22 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style> label,p,input,button {font-size: 23px;}</style>
+    <style> label,p,input,button,span {font-size: 23px;}</style>
     <script src="converter.js"></script>
 </head>
 
 <body>
     <h1>Temp Converter</h1>
-    <form id="tempConverterForm">
+    <form>
         <input type="number" name="temp" id="temp" required placeholder="type temp in fahrenheit">
-        <br>
-        <button onclick="cConverter()"> Convert Temp to Celsius</button>
-        <br>
-        <button onclick="kConverter()"> Convert Temp to Kelvin</button>
-        <br>
         <input type="reset" value="Clear">
     </form>
-    <p id="result"></p>
+    <button onclick="toCelcius()"> Convert Temp to Celsius</button>
+    <br>
+    <button onclick="toKelvin()"> Convert Temp to Kelvin</button>
+    <br>
+    <span id="result"> </span>
 </body>
 
 </html>
