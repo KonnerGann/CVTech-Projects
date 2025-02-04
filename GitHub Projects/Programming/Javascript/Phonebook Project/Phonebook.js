@@ -1,15 +1,17 @@
-document.getElementById("PhonebookForm").addEventListener("submit", function (event) 
-{
-    event.preventDefault();
+function Store() {
+        //Adding new cells
+    let phoneTable = document.getElementById("phoneTable").rows.length;
+    let rows = phoneTable++;
+    let row = document.getElementById("phoneTable").insertRow(rows);
+    let cell1 = row.insertCell(0);
+    let cell2 = row.insertCell(1);
+    let cell3 = row.insertCell(2);
     //First Name 
     const firstName = (document.getElementById("FirstName").value);
-    const firstNameResult = document.getElementById("FirstNameResult");
-    if (toString(firstName)) {firstNameResult.textContent = `${firstName}`;}
+    cell1.innerHTML = firstName;
     //Last Name
     const lastName = document.getElementById("LastName").value;
-    const lastNameResult = document.getElementById("LastNameResult");
-    if (toString(lastName)) {lastNameResult.textContent = `${lastName}`;}
+    cell2.innerHTML = lastName;
     //Phone Number
     const phoneNumber = document.getElementById("PhoneNumber").value;
-    const phoneResult = document.getElementById("PhoneResult");
-    if (toString(phoneNumber)) {phoneResult.textContent = `${phoneNumber}`;}});
+    cell3.innerHTML = phoneNumber;}
