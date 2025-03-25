@@ -1,9 +1,8 @@
-try {
-    function exponentiate() {
+function exponentiate() {
     //Variables//
-    let coefficient = document.getElementById("coefficient").value;
-    let exponent = document.getElementById("exponent").value;
-    let result = document.getElementById("result").innerHTML;
-    
-    }
-} catch (error) { }
+    let Coefficient = document.getElementById("coefficient").value
+    let Exponent = document.getElementById("exponent").value
+    //calculations//
+    let Output = (Coefficient ** Exponent)
+    document.getElementById("result").textContent = `${Coefficient} to the power of ${Exponent} is ${Output}.`
+}
