@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradebook</title>
+    <script src="grade.js"></script>
+    <style>p,label,input,button{font-size: 20px;}</style>
+</head>
+<body>
+    <h1> Welcome to the Gradebook </h1>
+    <form>
+        <label style="font-size: 20px;">First Name</label>
+        <input id="firstName" type="text" required>
+        <br>
+        <label>Last Name </label>
+        <input id="lastName" type="text" required>
+        <br>
+        <label>Grade 1</label>
+        <input id="grade1" type="number" required min="0">
+        <br>
+        <label>Grade 2</label>
+        <input id="grade2" type="number" required min="0">
+        <br>
+        <label>Grade 3</label>
+        <input id="grade3" type="number" required min="0">
+        <br>
+        <button type="reset">Clear</button>
+    </form>
+    <button onclick="Calculate()">Calculate</button>
+
+    <p id="fullName"> </p>
+    <p id="grade1R"> </p>
+    <p id="grade2R"> </p>
+    <p id="grade3R"> </p>
+    <p id="averageR"> </p>
+    <p id="letterGradeR"> </p>
+</body>
+</html>
